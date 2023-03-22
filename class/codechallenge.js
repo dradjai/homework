@@ -14,3 +14,5 @@ function getNumOfPizzas(adults){
 
 const numBoxes = getNumOfPizzas(6);
 console.log(numBoxes);
+
+console.log("test")
