@@ -29,8 +29,18 @@ const foodItems = [
     "arroz con pollo"
 ]
 
-console.log(foodItems);
-const len = foodItems.length;
-console.log(len, foodItems);
+// console.log(foodItems);
+// const len = foodItems.length;
+// console.log(len, foodItems);
+
+
+const sayHello = () => console.log('hello');
+
+const sumNums = (num1, num2) => num1 * num2;
+
+const hi = sayHello();
+
+const addNums = sumNums(2,3);
+console.log(addNums);
 
 
