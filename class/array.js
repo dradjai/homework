@@ -34,13 +34,37 @@ const foodItems = [
 // console.log(len, foodItems);
 
 
-const sayHello = () => console.log('hello');
+// const sayHello = () => console.log('hello');
 
-const sumNums = (num1, num2) => num1 * num2;
+// const sumNums = (num1, num2) => num1 * num2;
 
-const hi = sayHello();
+// const hi = sayHello();
 
-const addNums = sumNums(2,3);
-console.log(addNums);
+// const addNums = sumNums(2,3);
+// console.log(addNums);
 
 
+const arr = [2, 16, 5, 8];
+
+//const arrFunc = arr.reduce((a, c) => a + c, 0);
+
+//const arrMax = arr.reduce((a, c) => a > c ? a : c, 0);
+
+//const arrMin = arr.reduce((a, c) => a < c ? a : c, Number.MAX_VALUE);
+
+const arrMultiply = arr.map((a, b) => a + 2);
+
+const res = arrMultiply;
+console.log(res);
+
+const add = (a, b) => a + b;
+
+const multiply = (a, b) => a * b;
+
+
+const calc = (num1, num2, func) => {
+    return func(num1, num2);
+}
+
+const result = calc(5,7,multiply);
+console.log(result);

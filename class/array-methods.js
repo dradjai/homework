@@ -12,7 +12,7 @@ console.log(sampleArray);
 //POP() - remove last element
 //SHIFT() - remove first element
 //UNSHIFT() - adds element in first index
-//LENGTH()
+//LENGTH() - returns length of array
 
 console.log("length: ", sampleArray.length);
 console.log("pop: ", sampleArray.pop());
